@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/ndarray-base-wrap-index",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Wrap an index on the interval [0,max].",
   "license": "Apache-2.0",
   "author": {
