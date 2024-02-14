@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import wrapIndex from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-wrap-index@esm/index.mjs';
+import wrapIndex from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-wrap-index@v0.2.0-esm/index.mjs';
 ```
 
 #### wrapIndex( idx, max )
@@ -97,7 +97,7 @@ idx = wrapIndex( 15, 10 );
 <script type="module">
 
 import discreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-discrete-uniform@esm/index.mjs';
-import wrapIndex from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-wrap-index@esm/index.mjs';
+import wrapIndex from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-wrap-index@v0.2.0-esm/index.mjs';
 
 var idx;
 var out;
