@@ -54,7 +54,7 @@ limitations under the License.
 To use in Observable,
 
 ```javascript
-wrapIndex = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-wrap-index@umd/browser.js' )
+wrapIndex = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-wrap-index@v0.2.2-umd/browser.js' )
 ```
 
 To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
@@ -66,7 +66,7 @@ var wrapIndex = require( 'path/to/vendor/umd/ndarray-base-wrap-index/index.js' )
 To include the bundle in a webpage,
 
 ```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-wrap-index@umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-wrap-index@v0.2.2-umd/browser.js"></script>
 ```
 
 If no recognized module system is present, access bundle contents via the global scope:
@@ -119,7 +119,7 @@ idx = wrapIndex( 15, 10 );
 <html lang="en">
 <body>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/random-base-discrete-uniform@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-wrap-index@umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-wrap-index@v0.2.2-umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
 
